@@ -1,0 +1,30 @@
+@import "theme1.scss";
+@import "~bootstrap/scss/bootstrap";
+
+// utility
+.list-inline-separated {
+  @extend .list-inline;
+
+  .list-inline-item {
+    @extend .list-inline-item;
+    margin-right: 4px;
+
+    &:after {
+      content: "|";
+      margin-left: 6px;
+    }
+
+    &:last-child {
+      margin-right: 0;
+
+      &:after {
+        content: "";
+        margin-left: 0;
+      }
+    }
+  }
+}
+
+.page-break {
+  page-break-after: always;
+}

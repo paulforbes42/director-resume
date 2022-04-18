@@ -1,0 +1,18 @@
+/** Theme Colors **/
+$theme-color-1: #006D77; // Dark Green
+$theme-color-2: #83C5BE; // Light Green
+$theme-color-3: #EDF6F9; // Gray
+$theme-color-4: #FFDDD2; // Light Orange
+$theme-color-5: #E29578; // Dark Orange
+
+/** Theme Overrides **/
+$body-bg: $theme-color-3;
+$body-color: #111;
+
+$green: $theme-color-1;
+$orange: $theme-color-5;
+
+$primary: $green;
+$secondary: $theme-color-2;
+$warning: $theme-color-4;
+$danger: $orange;
